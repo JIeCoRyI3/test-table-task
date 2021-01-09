@@ -1,3 +1,10 @@
-.Table {
+.TableHead {
+    display: flex;
+    align-items: center;
+    border-bottom: darkgray 2px solid;
+}
 
+.TableHead div {
+    margin: 20px 60px;
+    width: 200px;
 }

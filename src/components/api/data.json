@@ -1,0 +1,34 @@
+{
+  "dataArray": [
+    {
+      "id": 0,
+      "name": "Steave",
+      "surname": "James",
+      "age": 23
+    },
+    {
+      "id": 1,
+      "name": "Vlad",
+      "surname": "Romanov",
+      "age": 13
+    },
+    {
+      "id": 2,
+      "name": "Sasha",
+      "surname": "Shipov",
+      "age": 41
+    },
+    {
+      "id": 3,
+      "name": "Kirill",
+      "surname": "Shelipov",
+      "age": 34
+    },
+    {
+      "id": 4,
+      "name": "Steave",
+      "surname": "Chech",
+      "age": 22
+    }
+  ]
+}

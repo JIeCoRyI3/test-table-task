@@ -1,0 +1,26 @@
+.String {
+    display: flex;
+    align-items: center;
+    border-bottom: darkgray 2px solid;
+    justify-content: space-between;
+}
+
+.String div {
+    margin: 20px 60px;
+    width: 200px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+.save {
+    display: none;
+}
+
+input {
+    font-size: 18pt;
+    width: 150px;
+    margin: 40px;
+}

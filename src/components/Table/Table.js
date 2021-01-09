@@ -16,6 +16,8 @@ class Table extends React.Component {
                 data: JSON.parse(res),
                 isLoading: false
             })
+        }).catch(err => {
+            console.log(err);
         });
     }
 
@@ -31,12 +33,13 @@ class Table extends React.Component {
             name,
             surname,
             age
-        })
-            .then(res => {
+        }).then(res => {
             this.setState({
                 data: JSON.parse(res),
                 isLoading: false
             })
+        }).catch(err => {
+            console.log(err);
         });
     };
 

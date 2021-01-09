@@ -33,6 +33,8 @@ class String extends React.Component{
             this.changeToDiv(age);
             document.getElementById("edit" + id).style.display = 'block';
             document.getElementById("save" + id).style.display = 'none';
+        }).catch(err => {
+            console.log(err);
         });
 
 

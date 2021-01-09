@@ -1,0 +1,24 @@
+{
+    "collectCoverage": true,
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "moduleFileExtensions": ["js", "mjs", "jsx"],
+    "coverageThreshold": {
+        "global": {
+            "branches": 50,
+            "functions": 80,
+            "lines": 80,
+            "statements": 80
+        }
+    },
+    "transform": {
+        "^.+\\.js$": "babel-jest",
+        "^.+\\.mjs$": "babel-jest",
+        "^.+\\.jsx$": "babel-jest"
+    },
+    "testRegex": "((\\.|/*.)(test))\\.js?$",
+    "moduleNameMapper": {
+        "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
+        "\\.(jpg|png|jpeg|gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+}
